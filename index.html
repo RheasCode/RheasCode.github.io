@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <title> COVID-19 Relief </title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script defer src="proj1.js"></script>
+  </head>
+  <body>
+      <h1 > COVID-19 RELIEF <p style="font-size: 20px; margin:0px; padding:0px;"> Twitter Search Engine </p></h1>
+
+
+    <nav class="topnav">
+
+         <a href="#subtitle" class="active" value="Home"> Home </a>
+         <a href="#pan" value="#IndiaFightsCorona"> #IndiaFightsCorona </a>
+         <a href="#faq"value="FAQs"> FAQs </a>
+         <a href="#donate"value="Donate"> Donate </a>
+         <a href="https://selfregistration.cowin.gov.in/" target="_blank"> Co-WIN</a>
+         <p id="subtitle"> compassion breeds hope </p>
+
+    </nav>
+    <div class = "content">
+    <br><br><br>
+    <h2> Instructions: </h2></br>
+    <ol>
+      <li> Entering your state or locality is compulsory (Enter India if looking for pan India sources). </li> <br>
+      <li> Always click on <b> latest </b> once you're on twitter to get the latest results (to make sure you get what you're looking for without the dreaded 'out of stock!').</li><br>
+      <li> (Optional) Donate to the organisations that are helping India in its time of need. </li><br>
+    </ol>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<label for="title">Which state or city?*</label>
+
+<br>
+
+<form name="myForm" action="includes/run.php"  method="post">
+<input id="post_id" type="text" name="fname" >
+<a class="link" href="#" target="_blank" onclick="return validateForm()">Search</a>
+</form>
+<br><br>
+
+<div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<label>What do you require?</label>
+<br>
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Options</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#" target="_blank" onclick="return validateForm()" id="o2" >O2 Cylinders</a>
+    <a href="#" target="_blank" onclick="return validateForm()" id="bed">Hospital Bed</a>
+    <a href="#" target="_blank" onclick="return validateForm()" id="rem" >Remdesivir Injection</a>
+    <a href="#" target="_blank" onclick="return validateForm()" id="fav" >Favipiravir</a>
+    <a href="#" target="_blank" onclick="return validateForm()" id="plasma" >Plasma</a>
+    <a href="#" target="_blank" onclick="return validateForm()" id="icu" >ICU</a>
+  </div>
+</div>
+
+</div>
+<br><br>
+<p style="font-size:20px; font-style: italic;"> If you couldn't find what you needed above, then </p>
+<form name="form2" action= "includes/run.php" method="post">
+<label id="manual">Enter search manually: </label>
+<br><br>
+<input id="text_id" type="text" name="fname2" >
+<a class="link" href="#" onclick="return validateForm2()" target="_blank">Search</a>
+</form>
+<br>
+<section id="pan">
+<hr class="solid"></hr>
+
+<br><br>
+<p class="heading"> #IndiaFightsCorona <p>
+
+<div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">via curator.io</a></div>
+
+<script type="text/javascript">
+
+(function(){
+var i, e, d = document, s = "script";i = d.createElement("script");i.async = 1;
+i.src = "https://cdn.curator.io/published/dbe08bd1-6d55-4eea-8d66-8c137e8b65b9.js";
+e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+})();
+</script>
+</section>
+
+<section id="faq">
+  <hr class="solid"></hr>
+  <p class="heading"> FAQs </p>
+  <iframe frameborder="0" scrolling="yes"
+     width="640" height="480"
+     src="https://docs.google.com/document/d/e/2PACX-1vTFMC9YDQiHjXC_XR7HMORgKTs5uh9z6Xa-8SaVWmuGUWYE2Lxz80rK_Vy4JP21XlzONNaRJB2uzj_E/pub?embedded=true">
+   </iframe>
+ </section>
+ <section id="donate">
+     <hr class="solid"></hr>
+     <p class="heading"> Voluntary Donation Links </p><br>
+     <ol>
+     <li><a href="https://hemkuntfoundation.com/donate-now/" target="_blank">The Hemkunt Foundation</a><p class="don"> Hemkunt Foundation is a non-government organisation that aims to provide humanitarian aid to marginalized sections of society.
+The organisation is based upon the most popular Sikh principle of ‘Sarbat Da Bhalla’ which means welfare for all. While the efforts of Hemkunt Foundation are in tandem with its principle, it continues to provide livelihoods, disaster relief, access to basic human rights and education to all.</p></li>
+     <li><a href="https://paytm.com/offer/donate-oxygen" target="_blank">Paytm Foundation </a><p class="don"> Paytm Foundation is raising ₹14 crore to donate Oxygen Concentrators across India. Paytm will match the contributions received through this initiative. </p> </li>
+     <li><a href="https://www.feedingindia.org/donate/help-save-my-india?review_id=oxygen" target="_blank"> Zomato Feeding India</a><p class="don"> Feeding India by Zomato is a 100% not for profit organisation, every rupee you donate will go towards supporting the hospitals and patients in need. </p></li>
+     <li><a href="https://actgrants.in/donate/" target="_blank"> ACT Grants </a><p class="don"> ACT Grants are centrally distributing oxygen on behalf of the entire Indian startup ecosystem and are also partnering with the government to support their efforts in this crisis. International payments are accepted. </p></li>
+     <li><a href="https://goonj.org/support-covid-19-affected/" target="_blank"> Goonj </a><p class="don"> Goonj are working in parts of 27 States/UTs of India with their teams and an ongoing network of 400+ grassroots organizations. They focus and engage with ignored communities such as artisans, transgenders, sex workers, patients etc. </p></li>
+   </ol>
+</div>
+<footer>
+
+  <p class="num">Author: Rhea Mehta <br>
+  <a href="mailto:rheamehta212@gmail.com">rheamehta212@gmail.com</a><br>
+  Co-Author: Shruti Singhal <br>
+  <a href="mailto:shruti1110singhal@gmail.com">shruti1110singhal@gmail.com</a></p>
+  <p class="tel">Contact:<br><a href="tel:9717652778">Tel: 9717652778</a><br>
+  <a href="tel:7209404568">Tel: 7209404568</a></p>
+  <div class="socials">
+  <a href="https://www.facebook.com/coronavirus_info/?page_source=bookmark" target="_blank" class="fa fa-facebook"></a>
+  <a href="https://twitter.com/i/events/1240662046280048646" target="_blank" class="fa fa-twitter"></a>
+  <a href="https://www.linkedin.com/in/rhea-mehta-0334631bb/" target="_blank" class="fa fa-linkedin"></a>
+  <a href="https://www.instagram.com/covidaidresources/" target="_blank" class="fa fa-instagram"></a>
+ </div>
+
+</footer>
+
+</body>
+</html>
