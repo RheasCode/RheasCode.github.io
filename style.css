@@ -1,0 +1,226 @@
+body {
+  background-image: url("https://cdn.wallpapersafari.com/60/84/yhk1gA.jpg");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: contain;
+  padding: 0px;
+  margin: 0px;
+
+}
+.content{
+  padding: 250px;
+  padding-top: 0px;
+  background-color: rgba(255, 255, 255,0.3);
+  background-repeat: repeat;
+  box-shadow: 5px 10px 18px grey;
+}
+#faq {
+  margin-top: 20px;
+  text-align: center;
+}
+.heading{
+  text-align: center;
+  font-size: 40px;
+  font-family: inherit;
+  background-color: #acb7e8;
+  border-radius: 50px;
+}
+
+
+h1 {
+  color: black;
+  font-size: 50px;
+  text-align: center;
+  font-family: "Lucida Sans Unicode";
+  font-style: bold;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  background-color: #acb7e8;
+  border-radius: 0px;
+}
+#subtitle {
+  color: #a2a6ba;
+  font-size: 14px;
+  text-align: right;
+  font-family: "Lucida Sans Unicode";
+  font-style: italic;
+  margin-right: 10px;
+
+}
+h2 {
+  margin-bottom: 3px;
+}
+ol {
+  margin-top: 3px;
+  margin-bottom: 20px;
+  font-size: 17px;
+  font-family: "Lucida Sans Unicode" ;
+  padding-left: 5px;
+}
+li {
+  font-weight: bold;
+}
+.topnav {
+  float: none;
+  overflow: hidden;
+  background-color: black;
+  box-shadow: 5px 10px 18px black;
+}
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px 27px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #ddd;
+  color: black;
+}
+label {
+  font-size: 25px;
+}
+#other {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+#post_id {
+  text-align: center;
+  font-family: inherit;
+  font-size: 20px;
+}
+#text_id {
+  text-align: center;
+  font-family: inherit;
+  font-size: 20px;
+}
+
+.dropbtn {
+  background-color: #6772a6;
+  color: white;
+  padding: 11px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+.link {
+  background-color: #6772a6;
+  color: white;
+  padding: 12px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #eee0e6;
+  color: black;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.show {display:block;}
+
+hr.solid {
+  border-color: black;
+  border-top: 1px solid #bbb;
+  border-top-color: inherit;
+  padding:0px;
+  margin: 100px 0px 0px 0px;
+}
+
+.don {
+  text-align: center;
+  font-family: inherit;
+  font-size: 17px;
+}
+footer {
+  margin: 0px;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  background-color: rgba(172, 179, 191,0.5);
+}
+.num{
+  display: inline-block;
+  font-family:"Lucida Sans Unicode";
+  margin-left: 10px;
+  font-size: 15px;
+}
+.tel {
+  margin-top: 0px;
+  font-size: 15px;
+  font-family:"Lucida Sans Unicode";
+  display: inline-block;
+  margin-left: 100px;
+}
+.socials{
+  margin: 20px 10px 0px 10px;
+  display: inline-block;
+  float:right;
+}
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 32px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
