@@ -3,7 +3,7 @@ var post_id="";
 $("input#post_id").on("change", function(){
 
   post_id = $("input#post_id").val();
-  $("a.link").attr("href", "https://twitter.com/search/?q=%20" + post_id + "%20verified%20covid%20-need%20-required%20-not%20verified%20-needed%20-needs%20-requires%20-require%20-requirement%20-looking%20for&f=realtime");
+  $("a.link1").attr("href", "https://twitter.com/search/?q=%20" + post_id + "%20verified%20covid%20-need%20-required%20-not%20verified%20-needed%20-needs%20-requires%20-require%20-requirement%20-looking%20for&f=realtime");
 
 });
 function validateForm() {
