@@ -129,6 +129,10 @@ label {
   border: none;
   cursor: pointer;
 }
+iframe {
+  text-align: center;
+  margin: auto;
+}
 .dropbtn:hover, .dropbtn:focus {
   background-color: #eee0e6;
   color: black;
