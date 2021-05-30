@@ -121,7 +121,14 @@ label {
   border: none;
   cursor: pointer;
 }
-
+.link1 {
+  background-color: #6772a6;
+  color: white;
+  padding: 12px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
 .dropbtn:hover, .dropbtn:focus {
   background-color: #eee0e6;
   color: black;
