@@ -36,7 +36,7 @@
 <br>
 
 <form name="myForm" >
-<input id="post_id" type="text" name="fname" >
+<input id="post_id" type="text" name="fname" onkeypress="searchKeyPress(event);">
 <a class="link" href="#" target="_blank" onclick="return validateForm()">Search</a>
 </form>
 <br><br>
@@ -63,7 +63,7 @@
 <form name="form2" >
 <label id="manual">Enter search manually: </label>
 <br><br>
-<input id="text_id" type="text" name="fname2" >
+<input id="text_id" type="text" name="fname2" onkeypress="searchKeyPress1(event);">
 <a class="link" href="#" onclick="return validateForm2()" target="_blank">Search</a>
 </form>
 <br>
