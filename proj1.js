@@ -64,3 +64,25 @@ $("input#text_id").on("change", function(){
   $("a.link").attr("href", "https://twitter.com/search/?q=%20" + text_id + "%20verified%20-need%20-required%20-not%20verified%20-needed%20-needs%20-requires%20-require%20-requirement%20-looking%20for&f=realtime","_blank");
 
 });
+function searchKeyPress(e)
+{
+
+e = e || window.event;
+if (e.keyCode == 13)
+   {
+     event.preventDefault();
+     //document.getElementsByClassName("a.link").click();
+     $('a.link1').trigger('click');
+   }
+}
+function searchKeyPress1(e)
+{
+
+e = e || window.event;
+if (e.keyCode == 13)
+   {
+     event.preventDefault();
+     //document.getElementsByClassName("a.link").click();
+     $('a.link').trigger('click');
+   }
+}
